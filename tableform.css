@@ -1,0 +1,153 @@
+body, html {
+  height: 100%;
+}
+*
+{
+  box-sizing: border-box;
+}
+.img 
+{
+  /* The image used */
+   background-image: url("hi.gif");
+   min-height: 510px;
+   
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  
+}
+/* Add styles to the form container */
+.container {
+
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  border-radius: 12px;
+  
+  padding: 16px;
+  background: rgba(0,0,0,0.4); 
+ 
+}
+
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+  opacity:1;
+
+}
+#ce
+{
+  margin-left: auto;
+  margin-right: auto;
+text-align:center; 
+color:white; 
+}
+#Button
+{   background-color: #ddd;
+  outline: none;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center; 
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: horizontally /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+#Button:hover {
+  background-color: #45a049;
+}
+
+#firstName
+{
+	  background-color: #ddd;
+  outline: none;
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#firstName:hover {
+  background-color: white;
+}
+
+#lastName
+{
+	  background-color: #ddd;
+  outline: none;
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#lastName:hover {
+  background-color: white;
+}
+#phoneNumber
+{
+	  background-color: #ddd;
+  outline: none;
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#phoneNumber:hover {
+  background-color: white;
+}
+#quantity
+{
+	  background-color: #ddd;
+  outline: none;
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#quantity:hover {
+  background-color: white;
+}
+#price
+{
+	  background-color: #ddd;
+  outline: none;
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+} 
+#price:hover {
+  background-color: white;
+}
+.label_col
+{
+	color:white;
+}
+.feedback_col
+{
+	color:white;
+}
